@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    color: #333;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 70%;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1e40af;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.botao:hover {
+    background-color: #1d4ed8;
+}
