@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+}
+
+header {
+    background-color: #2f5d8c;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #2f5d8c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #2f5d8c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.dica {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px;
+    border-left: 5px solid #2f5d8c;
+}
+
+.dica p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background-color: #2f5d8c;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
