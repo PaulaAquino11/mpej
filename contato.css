@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+/* CABEÇALHO */
+header {
+    background: linear-gradient(135deg, #071a33, #0057b8);
+    color: white;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 26px;
+}
+
+.logo p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #58b9ff;
+}
+
+/* ÁREA DE CONTATO */
+.contato {
+    padding: 60px 8%;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo h2 {
+    font-size: 36px;
+    color: #0057b8;
+    margin-bottom: 10px;
+}
+
+.titulo p {
+    color: #666;
+}
+
+/* CONTAINER */
+.container-contato {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 50px;
+}
+
+/* INFORMAÇÕES */
+.informacoes h3 {
+    color: #0057b8;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.informacoes p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* FORMULÁRIO */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0057b8;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* BOTÃO */
+button {
+    background-color: #0057b8;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d82;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #071a33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-contato {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+
+    .titulo h2 {
+        font-size: 28px;
+    }
+}
