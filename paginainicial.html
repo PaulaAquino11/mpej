@@ -3,40 +3,71 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Organiza Estudos</title>
-    <link rel="stylesheet" href="/stylepaginainicial.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organize seus estudos com a Escola Leão.">
+    <title>Início | Escola Leão</title>
+    <link rel="stylesheet" href="stylepaginainicial.css">
 </head>
 
 <body>
 
     <header>
-        <h1>📚 Organiza Estudos</h1>
+        <h1>Escola Leão</h1>
+        <p>Organização de estudos</p>
 
-        <nav>
-            <a href="index.html">Início</a>
+        <nav aria-label="Navegação principal">
+            <a href="paginainicial.html" aria-current="page">Início</a>
             <a href="cronograma.html">Cronograma</a>
             <a href="disciplinas.html">Disciplinas</a>
             <a href="conteudos.html">Conteúdos</a>
             <a href="dicas.html">Dicas</a>
-            <a href="contato.html">Contato</a>
+            <a href="/contato.html">Contato</a>
         </nav>
     </header>
 
     <main class="inicio">
-        <h2>Bem-vindo ao Organiza Estudos!</h2>
+        <section aria-labelledby="boas-vindas">
+            <h2 id="boas-vindas">Bem-vindo à Escola Leão!</h2>
 
-        <p>
-            Organize sua rotina, suas disciplinas e seus conteúdos
-            de estudo em um só lugar.
-        </p>
+            <p>
+                A Escola Leão é um espaço para ajudar você a organizar a rotina
+                escolar e acompanhar seus estudos em um só lugar. Aqui, você pode
+                planejar o tempo, revisar o que aprendeu e se preparar para as
+                atividades da escola.
+            </p>
 
-        <a class="botao" href="disciplinas.html">
-            Começar a estudar
-        </a>
+            <a class="botao" href="cronograma.html">Acessar meu cronograma</a>
+        </section>
+
+        <section aria-labelledby="como-usar">
+            <h2 id="como-usar">Como o site pode ajudar?</h2>
+            <p>
+                Use o cronograma para planejar seus horários de estudo e consulte
+                a área de disciplinas para acompanhar as matérias da escola.
+                Em conteúdos, você pode organizar materiais de revisão; na área
+                de dicas, encontra sugestões para estudar com mais foco.
+            </p>
+            <p>
+                Para começar, escolha uma tarefa importante, reserve um horário
+                para realizá-la e faça pequenas pausas entre os períodos de
+                estudo. Atualize seu planejamento sempre que sua rotina mudar.
+            </p>
+        </section>
+
+        <section aria-labelledby="objetivo">
+            <h2 id="objetivo">Um passo de cada vez</h2>
+            <p>
+                Cada estudante tem seu próprio ritmo. O objetivo deste espaço é
+                tornar a organização mais simples e ajudar você a manter uma
+                rotina equilibrada. Em caso de dúvidas ou sugestões, entre em
+                contato com a equipe da Escola Leão pelo menu.
+            </p>
+        </section>
+
     </main>
 
     <footer>
-        <p>© 2026 Organiza Estudos</p>
+        <p>© 2026 Escola Leão</p>
     </footer>
 
 </body>
