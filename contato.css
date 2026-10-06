@@ -12,7 +12,7 @@ body {
 
 /* CABEÇALHO */
 header {
-    background: linear-gradient(135deg, #071a33, #0057b8);
+    background: linear-gradient(120deg, #000814, #001f3f);
     color: white;
     padding: 25px 8%;
     display: flex;
@@ -56,7 +56,7 @@ nav a:hover {
 
 .titulo h2 {
     font-size: 36px;
-    color: #0057b8;
+    color: #001f3f;
     margin-bottom: 10px;
 }
 
@@ -80,7 +80,7 @@ nav a:hover {
 
 /* INFORMAÇÕES */
 .informacoes h3 {
-    color: #0057b8;
+    color: #001f3f;
     font-size: 25px;
     margin-bottom: 25px;
 }
@@ -116,7 +116,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border-color: #0057b8;
+    border-color: #001f3f;
 }
 
 textarea {
@@ -125,7 +125,7 @@ textarea {
 
 /* BOTÃO */
 button {
-    background-color: #0057b8;
+    background: linear-gradient(120deg, #000814, #001f3f);
     color: white;
     border: none;
     padding: 14px;
@@ -136,12 +136,12 @@ button {
 }
 
 button:hover {
-    background-color: #003d82;
+    background: linear-gradient(120deg, #001f3f, #123d68);
 }
 
 /* RODAPÉ */
 footer {
-    background-color: #071a33;
+    background: linear-gradient(120deg, #000814, #001f3f);
     color: white;
     text-align: center;
     padding: 20px;
